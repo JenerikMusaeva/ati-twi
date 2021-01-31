@@ -12,4 +12,14 @@ body {
 
 #message-form .btn-primary {
   min-width: 150px;
+  margin-top: 15px;
+}
+
+#messages {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#messages .box + .box {
+  margin-top: 20px;
 }
