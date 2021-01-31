@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(94, 184, 245);
+}
+
+.box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#message-form .btn-primary {
+  min-width: 150px;
+}
