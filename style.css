@@ -20,6 +20,17 @@ body {
   margin-bottom: 20px;
 }
 
+#messages .box {
+  position: relative;
+}
+
 #messages .box + .box {
   margin-top: 20px;
+}
+
+.message__date {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 12px;
 }
