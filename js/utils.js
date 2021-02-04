@@ -13,6 +13,7 @@ let addItem = listElement => {
   return function (title, content, date, ...tags) {
     let $message = document.createElement('div')
     $message.classList.add('box')
+    $message.classList.add('box')
     $message.classList.add('col-12')
     $message.innerHTML = `
         <h3>${title}</h3>
